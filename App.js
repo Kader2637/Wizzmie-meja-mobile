@@ -150,7 +150,7 @@ export default function App() {
           <View style={styles.navbar}>
             <View style={styles.navBrand}>
               <Image source={logoImg} style={styles.brandLogo} />
-              <Text style={styles.brandName}>WIZZMIE</Text>
+              <Text style={styles.brandName}>WizzOrder</Text>
             </View>
 
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 15 }}>

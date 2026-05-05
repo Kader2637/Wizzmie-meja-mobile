@@ -30,7 +30,7 @@ export default function LoginScreen({ onLogin, showAlert }) {
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{flexGrow: 1, justifyContent: 'center'}}>
         <View style={styles.loginHeader}>
           <Image source={require('../../assets/logo.png')} style={styles.loginLogo} />
-          <Text style={styles.loginTitle}>Wizzmie <Text style={{color: '#ef4444'}}>App</Text></Text>
+          <Text style={styles.loginTitle}>Wizz<Text style={{color: '#ef4444'}}>Order</Text></Text>
           <Text style={styles.loginSub}>Pesan makanan lezat dengan satu klik.</Text>
         </View>
 
